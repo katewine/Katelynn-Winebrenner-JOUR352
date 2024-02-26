@@ -16,12 +16,12 @@ button {
     background-color: #77625c;
     color: #e1f2fe;
     font-family: "Oxygen", sans-serif;
-    width:200px;
-    padding:20px;
-    margin:10px;
-    text-transform:uppercase;
-    border:none;
-    border-radius:5px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
 }
 
 button:hover {
