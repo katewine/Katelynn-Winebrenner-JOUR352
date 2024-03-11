@@ -1,4 +1,48 @@
+/*
+ * HEX Codes
+ * bio background #18161A
+ * navigation bar #3E2E28
+ * topper + nav font #FDF1F5
+ * body background #FDF1F5
+ */
+
+body {
+}
+
+#topper {
+    text-align: center;
+    background-color: #18161a;
+    color: #FDF1F5;
+}
+
+button {
+    color: #18161a;
+    background-color: #fdf1f5;
+}
+
 img {
     width: 100%;
     border: solid 5px #3e2e28;
+    margin: auto;
+}
+#bio-text {
+    margin: auto;
+}
+#name {
+    font-family: parisienne;
+}
+
+#navigation {
+    background-color: #3e2e28;
+    text-align: center;
+    color: #fdf1f5;
+    font-size: 20px;
+}
+
+a {
+    color: #fdf1f5;
+}
+#content {
+    background-color: #fdf1f5;
+    color: #3e2e28;
 }
