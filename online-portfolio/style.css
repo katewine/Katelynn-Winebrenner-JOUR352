@@ -6,7 +6,6 @@
  */
 
 @media {
-  
     #topper {
         text-align: center;
         background-color: #18161a;
@@ -25,17 +24,22 @@
     }
     #bio-text {
         margin: auto;
+        font-family: "Montserrat", sans-serif;
     }
+    .title {
+    }
+
     #name {
-        font-family: parisienne, serif;
+        font-family: "Alex Brush", cursive;
         font-size: 30px;
     }
 
     #navigation {
-        background-color:#3e2e28;
+        background-color: #3e2e28;
         text-align: center;
         color: #fdf1f5;
         font-size: 30px;
+        font-family: "Montserrat", sans-serif;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -44,14 +48,18 @@
         color: #fdf1f5;
         text-decoration: none;
     }
-    
-    #navigation a:hover{
+
+    #navigation a:hover {
         text-decoration: underline;
     }
 
     #content {
         background-color: #fdf1f5;
         color: #3e2e28;
+    }
+
+    #experience {
+        font-family: "Alex Brush", cursive;
     }
 }
 
