@@ -14,10 +14,15 @@
 
     button {
         color: #18161a;
-        background-color: #fdf1f5;
-        margin: auto;
+        background-color: #e7bac8;
+        padding: 10px;
+        font-size: 30px;
+        color: #3e2e28;
     }
 
+    button:hover {
+        background-color: #f8d6e1;
+    }
     img {
         width: 100%;
         margin: auto;
@@ -25,6 +30,7 @@
     #bio-text {
         margin: auto;
         font-family: "Montserrat", sans-serif;
+        text-size
     }
     .title {
     }
@@ -56,15 +62,37 @@
     #content {
         background-color: #fdf1f5;
         color: #3e2e28;
+        font-family: "Montserrat", sans-serif;
     }
 
     #experience {
         font-family: "Alex Brush", cursive;
+        font-size: 40px;
+        text-align: center;
+    }
+    #skills {
+        font-family: "Alex Brush", cursive;
+        font-size: 40px;
+        text-align: center;
+    }
+    #education {
+        font-family: "Alex Brush", cursive;
+        font-size: 40px;
+        text-align: center;
     }
 }
 
 @media (min-width: 576px) {
     #name {
+        font-size: 70px;
+    }
+    #experience {
+        font-size: 70px;
+    }
+    #skills {
+        font-size: 70px;
+    }
+    #education {
         font-size: 70px;
     }
 }
