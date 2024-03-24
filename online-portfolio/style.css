@@ -42,7 +42,7 @@
 
     #name {
         font-family: "Alex Brush", cursive;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     #navigation {
@@ -106,13 +106,13 @@
 
     #listed_skills {
         text-align: justify-all;
-        padding-left: 20%;
+        padding-left: 10%;
         font-size: 15px;
     }
 
     #education_details {
         font-size: 15px;
-        padding-left: 20%;
+        padding-left: 15%;
     }
 
     #school {
