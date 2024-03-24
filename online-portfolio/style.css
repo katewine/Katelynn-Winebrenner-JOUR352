@@ -13,9 +13,7 @@
     }
 
     button {
-        color: #18161a;
         background-color: #e7bac8;
-        padding: 10px;
         font-size: 30px;
         color: #3e2e28;
     }
@@ -23,6 +21,16 @@
     button:hover {
         background-color: #f8d6e1;
     }
+
+    button a {
+        color: #3e2e28;
+        text-decoration: none;
+    }
+
+    button a:hover {
+        text-decoration: underline;
+    }
+
     img {
         width: 100%;
         margin: auto;
@@ -30,9 +38,6 @@
     #bio-text {
         margin: auto;
         font-family: "Montserrat", sans-serif;
-        text-size
-    }
-    .title {
     }
 
     #name {
@@ -65,34 +70,89 @@
         font-family: "Montserrat", sans-serif;
     }
 
-    #experience {
+    .section-header {
+        padding-top: 40px;
         font-family: "Alex Brush", cursive;
         font-size: 40px;
+        text-align: center;
+        color: #3e2e28;
+    }
+
+    .job-details {
+        padding-left: 10px;
+    }
+
+    .job-title {
+        font-size: 20px;
         text-align: center;
     }
-    #skills {
-        font-family: "Alex Brush", cursive;
-        font-size: 40px;
+    .company {
+        font-size: 20px;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .dates {
+        font-size: 15px;
         text-align: center;
     }
-    #education {
-        font-family: "Alex Brush", cursive;
-        font-size: 40px;
+
+    .job-description {
+        font-size: 15px;
         text-align: center;
+        padding: 30px;
+        text-align: justify;
+    }
+
+    #listed_skills {
+        text-align: justify-all;
+        padding-left: 20%;
+        font-size: 15px;
+    }
+
+    #education_details {
+        font-size: 15px;
+        padding-left: 20%;
+    }
+
+    #school {
+        font-style: italic;
+    }
+
+    #graduation {
+        text-align: right;
+        padding-right: 20%;
     }
 }
 
 @media (min-width: 576px) {
     #name {
-        font-size: 70px;
+        font-size: 75px;
     }
-    #experience {
-        font-size: 70px;
+    .section-header {
+        font-size: 75px;
     }
-    #skills {
-        font-size: 70px;
+
+    .job-title {
+        font-size: 30px;
     }
-    #education {
-        font-size: 70px;
+    .company {
+        font-size: 20px;
+    }
+
+    .dates {
+        font-size: 15px;
+    }
+
+    .job-description {
+        font-size: 20px;
+    }
+
+    #listed_skills {
+        font-size: 30px;
+    }
+
+    #education_details {
+        font-size: 30px;
     }
 }
