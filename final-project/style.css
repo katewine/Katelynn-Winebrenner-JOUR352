@@ -1,0 +1,52 @@
+@media {
+    /*Phone styles here*/
+    /*This media query targets any screen smaller than 576px wide (see below)*/
+    body {
+        background-color: #0c0807;
+        color: white;
+    }
+
+    #topper {
+        background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2024-04/240417-jailhouse-informants-cs-4281b3.jpg);
+        background-size: cover;
+        background-position: center;
+        color: black;
+    }
+    
+    h1 {
+        padding-top: 100px;
+    }
+    h2 {
+        padding: 100px 0px 200px 0px;
+
+        margin: auto;
+    }
+
+    #info {
+        text-align: center;
+    }
+
+    #content {
+        text-align: center;
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+    /*Adjustments only)*/
+}
+
+@media (min-width: 992px) {
+    /*Desktop-only styles here*/
+    /*This media query targets any screen that is at least 992px wide*/
+     /*Adjustments only)*/
+}
+
+@media (min-width: 1200px) {
+    /*Large-Desktop-only styles here*/
+    /*This media query targets any screen that is at least 1200px wide*/
+
+      /*Adjustments only)*/
+}
