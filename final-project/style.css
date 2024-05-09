@@ -22,9 +22,18 @@
     }
 
     h1 {
-        padding-top: 100px;
+        padding: 100px 50% 0px 0px;
         font-family: "Castoro Titling", serif;
     }
+
+    #mobile-headline {
+        padding: 0px;
+    }
+
+    #desktop-headline {
+        display: none;
+    }
+
     h2 {
         padding: 100px 0 200px 0;
 
@@ -37,12 +46,11 @@
 
     #content {
         text-align: left;
-        width: 50%;
+        width: 100%;
     }
     p {
         padding-bottom: 7.5px;
         padding-top: 7.5px;
-        line-height: 2.5;
     }
     .pullquote {
         background-color: #c36344;
@@ -87,6 +95,17 @@
     /*Tablet-only styles here*/
     /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
     /*Adjustments only)*/
+    #mobile-headline {
+        display: none;
+    }
+
+    #desktop-headline {
+        display: block;
+    }
+
+    #content {
+        width: 50%;
+    }
 }
 
 @media (min-width: 992px) {
