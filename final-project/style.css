@@ -19,12 +19,12 @@
     #topper {
         background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2024-04/240417-jailhouse-informants-cs-4281b3.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center top;
     }
 
     h1 {
-        padding-top: 75px;
+        padding-top: 45px;
         text-align: center;
         font-size: 16px;
         font-family: "Castoro Titling", serif;
@@ -32,7 +32,7 @@
     }
 
     #topper p {
-        padding-bottom: 100px;
+        padding-bottom: 10px;
         text-align: center;
         padding-top: 110px;
     }
@@ -49,6 +49,17 @@
         padding-bottom: 7.5px;
         padding-top: 7.5px;
     }
+
+    .date {
+        color: gray;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .byline {
+        padding: 0;
+    }
+
     .pullquote {
         background-color: #c36344;
         color: #0c0807;
@@ -92,14 +103,8 @@
     /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
     /*Adjustments only)*/
 
-    #topper {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center top;
-    }
-
     h1 {
-        text-align: center;
+        text-align: cover;
         font-size: 30px;
         padding: 250px 0 0 0;
         font-family: "Castoro Titling", serif;
