@@ -3,9 +3,8 @@
  * #cce1d9 off-white
  * #c36344 orange
  * */
-
 @media {
-    /*Phone styles here*/
+    /*MOBILE*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
     body {
         background-color: #0c0807;
@@ -13,31 +12,29 @@
         font-family: "DM Sans", sans-serif;
     }
 
+    .overlay {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
     #topper {
         background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2024-04/240417-jailhouse-informants-cs-4281b3.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-color: #c36344;
+        background-size: contain;
+        background-position: center top;
     }
 
     h1 {
-        padding: 100px 50% 0px 0px;
+        padding-top: 75px;
+        text-align: center;
+        font-size: 16px;
         font-family: "Castoro Titling", serif;
+        position: relative;
     }
 
-    #mobile-headline {
-        padding: 0px;
-    }
-
-    #desktop-headline {
-        display: none;
-    }
-
-    h2 {
-        padding: 100px 0 200px 0;
-
-        margin: auto;
+    #topper p {
+        padding-bottom: 100px;
+        text-align: center;
+        padding-top: 110px;
     }
 
     #info {
@@ -68,7 +65,6 @@
         padding-top: 20px;
     }
     .attribution {
-        padding: none;
         text-align: center;
     }
 
@@ -92,31 +88,28 @@
 }
 
 @media (min-width: 576px) {
-    /*Tablet-only styles here*/
+    /*NOT MOBILE*/
     /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
     /*Adjustments only)*/
-    #mobile-headline {
-        display: none;
+
+    #topper {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
     }
 
-    #desktop-headline {
-        display: block;
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        padding: 250px 0 0 0;
+        font-family: "Castoro Titling", serif;
+    }
+
+    .overlay {
+        background: rgba(0, 0, 0, 0.5);
     }
 
     #content {
         width: 50%;
     }
-}
-
-@media (min-width: 992px) {
-    /*Desktop-only styles here*/
-    /*This media query targets any screen that is at least 992px wide*/
-    /*Adjustments only)*/
-}
-
-@media (min-width: 1200px) {
-    /*Large-Desktop-only styles here*/
-    /*This media query targets any screen that is at least 1200px wide*/
-
-    /*Adjustments only)*/
 }
